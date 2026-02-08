@@ -1,0 +1,29 @@
+/*
+Theme: pink
+
+Rules:
+- This file must only override tokens that change for this theme.
+- Do not redefine tokens that are identical to the default theme.
+
+How this works:
+- The app sets: <html data-theme="pink">
+- These overrides apply only when that attribute is present.
+*/
+
+html[data-theme="pink"] {
+  /* Background and text */
+  --bg: #fff7fb;
+  --fg: #0f172a;
+  --muted: #6b7280;
+
+  /* Surfaces */
+  --card-bg: #ffffff;
+  --border: #f2c6da;
+
+  /* Brand */
+  --primary: #ec4899;
+  --primary-fg: #ffffff;
+
+  /* Shadow */
+  --shadow: 0 10px 25px rgba(236, 72, 153, 0.12);
+}

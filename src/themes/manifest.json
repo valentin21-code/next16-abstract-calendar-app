@@ -1,0 +1,16 @@
+{
+  "themes": [
+    {
+      "id": "light",
+      "labelKey": "app.light"
+    },
+    {
+      "id": "dark",
+      "labelKey": "app.dark"
+    },
+    {
+      "id": "pink",
+      "labelKey": "app.pink"
+    }
+  ]
+}

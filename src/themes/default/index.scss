@@ -1,0 +1,22 @@
+/*
+Default (neutral) theme entry.
+
+Rule of thumb:
+- Everything that affects styling lives under /src/themes.
+- Library-specific overrides live under /src/themes/default/adapters.
+- The active adapter styles are selected in:
+  - /src/themes/default/adapters/ui/_active.scss
+  - /src/themes/default/adapters/calendar/_active.scss
+*/
+
+@use './tokens';
+@use './base';
+
+/* Neutral app styles */
+@use './ui/primitives';
+@use './components/layout';
+@use './components/calendar';
+
+/* Adapter overrides (selected via _active.scss) */
+@use './adapters/ui/active' as ui_active;
+@use './adapters/calendar/active' as cal_active;

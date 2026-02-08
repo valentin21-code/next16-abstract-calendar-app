@@ -1,0 +1,98 @@
+/*
+UI primitives styles.
+All adapters (native, antd, etc.) should rely on these classes.
+Do not use inline styles in components or pages.
+*/
+.ui-field {
+  display: grid;
+  gap: 6px;
+}
+
+.ui-field__label {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.ui-field__hint {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.ui-input,
+.ui-select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--fg);
+}
+
+.ui-button {
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  background: transparent;
+  cursor: pointer;
+  color: var(--fg);
+}
+
+.ui-button--primary {
+  background: var(--primary);
+  color: var(--primary-fg);
+  border-color: transparent;
+}
+
+.ui-button--danger {
+  background: var(--danger);
+  color: var(--danger-fg);
+  border-color: transparent;
+}
+
+.ui-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Dialog / Modal structure */
+.ui-dialog {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0;
+  background: var(--card-bg);
+  color: var(--fg);
+  box-shadow: var(--shadow);
+  width: min(560px, 92vw);
+}
+
+.ui-dialog__head {
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ui-dialog__title {
+  font-weight: 700;
+}
+
+.ui-dialog__close {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.ui-dialog__body {
+  padding: 16px;
+}
+
+.ui-dialog__footer {
+  padding: 16px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+

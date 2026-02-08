@@ -1,0 +1,32 @@
+{
+  "name": "next16-abstract-calendar-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/nextjs-registry": "^1.0.0",
+    "@fullcalendar/daygrid": "^6.1.19",
+    "@fullcalendar/interaction": "^6.1.19",
+    "@fullcalendar/react": "^6.1.19",
+    "@fullcalendar/timegrid": "^6.1.19",
+    "antd": "^6.0.0",
+    "date-fns": "^4.1.0",
+    "next": "^16.0.0",
+    "next-intl": "^4.0.0",
+    "react": "^19.0.0",
+    "react-big-calendar": "^1.19.2",
+    "react-dom": "^19.0.0",
+    "sass": "^1.77.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "25.2.0",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "app": {
+    "title": "Mini Calendar App",
+    "logout": "Salir",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "pink": "Rosa",
+    "language": "Idioma"
+  },
+  "login": {
+    "title": "Iniciar sesión",
+    "email": "Email",
+    "password": "Contraseña",
+    "submit": "Entrar"
+  },
+  "calendar": {
+    "title": "Calendario",
+    "newEvent": "Nuevo evento",
+    "editEvent": "Editar evento",
+    "eventTitle": "Título",
+    "start": "Inicio",
+    "end": "Fin",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  }
+}

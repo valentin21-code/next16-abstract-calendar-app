@@ -1,0 +1,11 @@
+/*
+Themes registry.
+
+- The default theme contains the neutral design system + global styles.
+- Additional themes usually only override CSS variables, but they can also
+  include extra files matching the same folder structure if needed.
+*/
+
+@use './default/index';
+@use './dark/index' as dark;
+@use './pink/index' as pink;

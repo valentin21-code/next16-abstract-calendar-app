@@ -1,0 +1,21 @@
+/*
+Theme tokens (CSS variables).
+All components must use these variables so the theme can override them.
+*/
+:root {
+  --bg: #ffffff;
+  --fg: #0f172a;
+  --muted: #64748b;
+
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+
+  --primary: #2563eb;
+  --primary-fg: #ffffff;
+
+  --danger: #dc2626;
+  --danger-fg: #ffffff;
+
+  --radius: 12px;
+  --shadow: 0 10px 25px rgba(2, 6, 23, 0.08);
+}

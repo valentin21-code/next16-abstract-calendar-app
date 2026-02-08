@@ -1,0 +1,22 @@
+/*
+React Big Calendar overrides.
+
+This file is intentionally global because RBC ships global CSS.
+*/
+
+.bigCalendar .rbc-toolbar button,
+.bigCalendar .rbc-btn-group button {
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--fg);
+  border-radius: var(--radius);
+}
+
+.bigCalendar .rbc-month-view,
+.bigCalendar .rbc-time-view {
+  border: 1px solid var(--border);
+}
+
+.bigCalendar .rbc-today {
+  background: color-mix(in srgb, var(--primary) 12%, transparent);
+}
